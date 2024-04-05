@@ -34,6 +34,7 @@ pub fn build(b: *std.Build) void {
     });
 
     exe.root_module.addImport("znoise", znoise_dep.module("znoise"));
+    exe.linkLibrary(znoise_dep.artifact("FastNoiseLite"));
 
     // This declares intent for the executable to be installed into the
     // standard location when the user invokes the "install" step (the default
@@ -72,6 +73,7 @@ pub fn build(b: *std.Build) void {
     });
     lib_unit_tests.root_module.addImport("znoise", znoise_dep.module("znoise"));
     lib_unit_tests.root_module.addImport("zgl", zgl_dep.module("zgl"));
+    lib_unit_tests.linkLibrary(znoise_dep.artifact("FastNoiseLite"));
 
     //lib_unit_tests.root_module.addImport("mach-glfw", glfw_dep.module("mach-glfw"));
     //lib_unit_tests.root_module.addImport("zgl", zgl_dep.module("zgl"));
