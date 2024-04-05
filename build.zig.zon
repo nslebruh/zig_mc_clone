@@ -20,12 +20,16 @@
             .hash = "12206001364ffc8809d07b84e64f84b117d2c7b4374d3f27e86538dd22ef1a2f5d6f",
         },
         .@"mach-glfw" = .{
-        .url = "https://github.com/nslebruh/mach-glfw/archive/refs/tags/0.0.1.tar.gz",
-        .hash = "12204522059d382f5d05099b60ec4d85c1b1917d22b8157ab4947ecac0dc5bb3d8fe",
+            .url = "https://github.com/nslebruh/mach-glfw/archive/refs/tags/0.0.1.tar.gz",
+            .hash = "12204522059d382f5d05099b60ec4d85c1b1917d22b8157ab4947ecac0dc5bb3d8fe",
         },
         .zgl = .{
-                .url = "https://github.com/nslebruh/zgl/archive/refs/tags/0.0.0.3.tar.gz",
-                .hash = "1220fd36054b472ce6bc1c0b644f6542ff95c123f7d8db961543c88e5362fabfe0c6",
+            .url = "https://github.com/nslebruh/zgl/archive/refs/tags/0.0.0.3.tar.gz",
+            .hash = "1220fd36054b472ce6bc1c0b644f6542ff95c123f7d8db961543c88e5362fabfe0c6",
+        },
+        .znoise = .{
+            .url = "https://github.com/nslebruh/znoise/archive/refs/tags/0.0.0.1.tar.gz",
+            .hash = "1220ee18259796c424c3bfb128399ce284ee83a3ac1e753feeebb221fa03f0c37775",
         },
     },
     .paths = .{
